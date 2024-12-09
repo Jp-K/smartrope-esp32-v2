@@ -1,0 +1,2 @@
+The contents of this folder will be stored in the ESP32 SPIFFS/LITTLEFS 
+data partition and will be available to the program at runtime

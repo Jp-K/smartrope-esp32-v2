@@ -1,0 +1,64 @@
+Partlist
+
+Exported from RoPE V3.0 Rev. 00.brd at 03/06/2022 14:20
+
+EAGLE Version 9.4.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part         Value           Package                Library            Position (mm)         Orientation
+
+BUZZER       5V              F/QMX                  buzzer             (50 49)               MR0
+C1           10uF            C1210                  rcl                (22 60.5)             MR270
+C2           10uF            C1210                  rcl                (26 60.5)             MR270
+C3           100nF           C1210                  rcl                (58.5 22.5)           MR90
+C4           100nF           C1210                  rcl                (25 6)                MR180
+C5           100nF           C1210                  rcl                (53 58)               MR0
+C6           100nF           C1210                  rcl                (17.5 49.5)           MR90
+C7           0.1uF           C1210                  rcl                (48 58)               MR180
+C10          0.1uF           C1210                  rcl                (44 6.5)              R0
+C11          0.1uF           C1210                  rcl                (50 22.5)             MR90
+CHARGER      TP4056          SOP-8                  TP4056             (24 55.5)             MR180
+D1           BAT54C          SOT23                  diode              (3.5 46)              R180
+DRIVER       ULN2803AFWG     ULN2803AFWG            ULN2803AFWG        (26 18.5)             MR270
+KEY_BACK     B3F-4050        B3F-4000               B3F-4050           (58 35)               R0
+KEY_EXECUTE  B3F-4050        B3F-4000               B3F-4050           (35 35)               R270
+KEY_FRONT    B3F-4050        B3F-4000               B3F-4050           (12 35)               R180
+KEY_LEFT     B3F-4050        B3F-4000               B3F-4050           (35 12.5)             R0
+KEY_RIGHT    B3F-4050        B3F-4000               B3F-4050           (35 57.5)             R180
+KK           SOURCE          7395-06                EP_molex_6410_7395 (14 55)               R90
+LED_BACK     ORANGE          KA-3528ASYC            led                (67 35)               R90
+LED_EXECUTE  GREEN           KA-3528ASYC            led                (26 35)               R270
+LED_EXECUTE2 GREEN           KA-3528ASYC            led                (44 35)               R270
+LED_FRONT    BLUE            KA-3528ASYC            led                (3 35)                R90
+LED_LEFT     RED             KA-3528ASYC            led                (35 3)                R0
+LED_RIGHT    RED             KA-3528ASYC            led                (35 67)               R0
+MODULE       ESP32-WROOM-32D MODULE_ESP32-WROOM-32D ESP32-WROOM-32D    (56.5 18)             R270
+MOTOR_A                      1X05/90                pinhead            (8 7)                 R90
+MOTOR_B                      1X05/90                pinhead            (8 21.5)              R90
+R1           1k2R            R1206W                 rcl                (19 57)               MR270
+R2           10kR            R1206W                 rcl                (25 52)               MR180
+R3           10kR            R1206W                 rcl                (35 24)               R90
+R4           470R            R1206W                 rcl                (54 38)               MR90
+R5           2k2R            R1206W                 rcl                (16 32)               MR90
+R6           3k33R           R1206W                 rcl                (35 46)               R270
+R7           4k7R            R1206W                 rcl                (54 32)               MR270
+R8           8k2R            R1206W                 rcl                (37.5 24)             R90
+R9           47kR            R1206W                 rcl                (35 32)               MR180
+R10          4k7R            R1206W                 rcl                (16 38)               MR90
+R11          150R            R1206W                 rcl                (3 40)                R270
+R12          150R            R1206W                 rcl                (67 40)               R270
+R13          150R            R1206W                 rcl                (26 40)               R270
+R14          150R            R1206W                 rcl                (44 40)               R270
+R15          150R            R1206W                 rcl                (30 3)                R0
+R16          150R            R1206W                 rcl                (30 67)               R0
+R18          1kR             R1206W                 rcl                (3 30)                R90
+R19          1kR             R1206W                 rcl                (67 30)               R90
+R20          100kR           R1206W                 rcl                (37.5 46)             R270
+R21          10kR            R1206W                 rcl                (48 61)               MR0
+R22          27kR            R1206W                 rcl                (35 37)               MR0
+T1           2N2222A         SOT23-BEC              transistor         (48 35)               MR0
+T2           2N2222A         SOT23-BEC              transistor         (22 35)               R0
+T3           2N2222A         SOT23-BEC              transistor         (48 35)               R0
+USB_UART                     1X06/90                pinhead            (62 55)               R270
+VOLTAGE_REG. REG1117         SOT223                 burr-brown         (7 53)                R0

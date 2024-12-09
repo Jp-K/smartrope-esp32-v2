@@ -1,0 +1,77 @@
+{
+  "rope": {
+    "buzzer": {
+      "pitch": {
+        "label": "Tonalidade do buzzer",
+        "description": "Aumenta ou diminui a tonalidade das notas emitidas pelo buzzer em uma determinada quantidade de semitons",
+        "type": "int8_t",
+        "default": 0,
+        "range": {
+          "min": {
+            "inclusive": true,
+            "value": -36
+          },
+          "max": {
+            "inclusive": true,
+            "value": 36
+          }
+        },
+        "style": "slider",
+        "format": {
+          "zero": "sem alteração de tonalidade",
+          "one": "${value} semitom",
+          "many": "${value} semitons"
+        }
+      },
+      "volume": {
+        "label": "Volume do buzzer",
+        "description": "Define a intensidade com que o buzzer irá reproduzir as notas",
+        "type": "uint8_t",
+        "default": 8,
+        "range": {
+          "min": {
+            "inclusive": true,
+            "value": 0
+          },
+          "max": {
+            "inclusive": true,
+            "value": 8
+          }
+        },
+        "style": "slider",
+        "format": {
+          "singular": "Nível ${value}",
+          "plural": "Nível ${value}"
+        }
+      }
+    },
+    "program": {
+      "size": {
+        "label": "Tamanho do programa",
+        "description": "Define a quantidade máxima de instruções que podem ser programadas na memória do RoPE",
+        "type": "uint8_t",
+        "default": 45,
+        "range": {
+          "min": {
+            "inclusive": true,
+            "value": 1
+          },
+          "max": {
+            "inclusive": true,
+            "value": 100
+          }
+        },
+        "style": "slider",
+        "format": {
+          "singular": "${value} instrução",
+          "plural": "${value} instruções"
+        }
+      },
+      "pause": {
+        "label": "Pausa entre as instruções",
+        "description": "Define quanto tempo o RoPE deverá aguardar após terminar de executar uma instrução e antes de executar a próxima",
+        "unit": "mili"
+      }
+    }
+  }
+}
