@@ -9,7 +9,3 @@
 .vscode/settings.json
 
 node_modules
-
-
-include/MQTTParams.h
-include/WiFiParams.h
